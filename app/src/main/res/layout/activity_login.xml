@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#5b5872"
+    android:orientation="vertical"
+    tools:context="vna.example.com.restaurant.Login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@id/title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="FISH RESTAUANT"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            />
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="5dp"
+            >
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Username"
+                android:background="#5b5872"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:id="@+id/user_name"
+                android:drawableLeft="@android:drawable/btn_star_big_off"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"
+            />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="3dp"
+            >
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Passward"
+
+                android:inputType="textPassword"
+                android:background="#5b5872"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:id="@+id/pass_user"
+                android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rember me "
+            android:id="@+id/remmember"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="LOGIN"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/style_btn"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:id="@+id/loginBtn"
+            />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

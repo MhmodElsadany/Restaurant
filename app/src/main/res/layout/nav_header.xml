@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5b5872"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/header"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    Stuff"
+        android:textSize="17sp"
+        android:textColor="#ffffff"
+        android:id="@+id/stuff"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="8dp"
+        android:drawableLeft="@drawable/stuff"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    Products"
+        android:textSize="17sp"
+        android:textColor="#ffffff"
+        android:id="@+id/product"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="8dp"
+        android:drawableLeft="@drawable/product"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    Location"
+        android:textSize="17sp"
+        android:textColor="#ffffff"
+        android:id="@+id/location"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="8dp"
+        android:drawableLeft="@drawable/product"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    menu"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:id="@+id/menu"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:drawableLeft="@drawable/menu"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    Logout"
+        android:textSize="17sp"
+        android:textColor="#ffffff"
+        android:id="@+id/logout"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:drawableLeft="@drawable/logout"
+
+        />
+</LinearLayout>
